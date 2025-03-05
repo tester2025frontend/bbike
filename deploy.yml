@@ -16,7 +16,7 @@ jobs:
     - name: Upload files to Freehostia
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        ftp-server: 'ftp.yoursite.com'
+        ftp-server: 'ftp.mybikedomain.com'
         ftp-username: ${{ secrets.miklai4 }}
         ftp-password: ${{ secrets.6FD7u3eZy# }}
         local-dir: './'  # Ο φάκελος με τα αρχεία που θες να στείλεις
