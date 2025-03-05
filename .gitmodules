@@ -1,0 +1,4 @@
+[submodule "app/public"]
+    path = app/public
+    url = https://github.com/tester2025frontend/bbike.git 
+       
